@@ -42,7 +42,7 @@ function inputHandler(event) {
       }
 
       if (response.length >= 2 && response.length <= 10) {
-        resetSearch(countryInfo);
+        resetSearch(infoElement);
         setSearch(infoElement, countryListSearch(response));
 
         return;
